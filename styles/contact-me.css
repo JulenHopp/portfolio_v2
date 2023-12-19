@@ -1,0 +1,186 @@
+.text-section{
+    width: 80%;
+    margin: 50px 50px;
+    color: #fff;
+
+}
+
+.text-section h1{
+    margin-bottom: 10px;
+}
+
+.text-section p{
+    margin-bottom: 40px;
+}
+
+.contact-section{
+    background-color: white;
+    display: flex;
+    margin: 0px 50px;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-left h3{
+    color: rgba(0, 136, 169, 1);
+    font-family: 600;
+    margin-bottom: 30px;
+}
+
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: rgba(0, 136, 169, 1);
+    color: white;
+}
+
+.contact-right td {
+    padding: 5px 0;
+}
+
+.contact-right h3{
+    color: white;
+    font-family: 600;
+    margin-bottom: 20px;
+}
+
+.contact-right table{
+    margin-bottom: 50px;
+}
+
+.contact-input-row{
+    display: flex;
+    margin-bottom: 10px;
+
+    flex-direction: column;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+    margin-top: 6px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+}
+
+label{
+    margin-bottom: 6px;
+    color: rgba(0, 136, 169, 1);
+}
+
+.boton-enviar{
+    background: rgba(0, 136, 169, 1);
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 3px 15px 0px rgba(28, 0, 181, 0.3)
+}
+
+@media screen and (max-width: 768px) {
+
+    .contact-section{
+        background-color: white;
+        display: flex;
+        margin: 0px 50px;
+        flex-direction: column;
+    }
+    
+    .contact-left{
+        flex-basis: 60%;
+        padding: 40px 60px;
+    }
+    
+    .contact-left h3{
+        color: rgba(0, 136, 169, 1);
+        font-family: 600;
+        margin-bottom: 30px;
+    }
+    
+    
+    .contact-right{
+        flex-basis: 40%;
+        padding: 40px;
+        background-color: rgba(0, 136, 169, 1);
+        color: white;
+
+    }
+
+    /* Cambia las celdas para que se comporten como bloques y ocupen el 100% del ancho */
+    td {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* Opcional: Agrega algún espacio entre las celdas para mejorar la legibilidad */
+    tr td:not(:last-child) {
+        margin-bottom: 0px;
+    }
+    
+    .contact-right h3{
+        color: white;
+        font-family: 600;
+        margin-bottom: 30px;
+    }
+    
+    
+    .contact-input-row{
+        display: flex;
+        margin-bottom: 10px;
+    
+        flex-direction: column;
+    }
+    
+    input{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        outline: none;
+        padding-bottom: 5px;
+        margin-top: 6px;
+    }
+    
+    textarea{
+        width: 100%;
+        border: 1px solid #ccc;
+        outline: none;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 6px;
+    }
+    
+    label{
+        margin-bottom: 6px;
+        color: rgba(0, 136, 169, 1);
+    }
+    
+    .boton-enviar{
+        background: rgba(0, 136, 169, 1);
+        width: 100px;
+        border: none;
+        outline: none;
+        color: #fff;
+        height: 35px;
+        border-radius: 30px;
+        margin-top: 20px;
+        box-shadow: 0px 3px 15px 0px rgba(28, 0, 181, 0.3)
+    }
+}

@@ -1,0 +1,28 @@
+.pdf-container{
+    margin: 0px 50px;
+}
+.resume-pdf{
+    width: 100%;
+    height: 80vh;
+}
+
+.pdf-container p{
+    color: #edf0f1;
+}
+
+.pdf-container a{
+    color: rgba(0, 136, 169, 1);
+}
+
+/* .pdf-dont-work{
+    position: absolute;
+    top: 20%;
+    right: 25%;
+    bottom: 0;
+    left: 25%;
+    z-index: -1;
+} */
+
+
+
+
