@@ -18,7 +18,7 @@ body{
 
 .card-container{
     width: 250px;
-    height: 400px;
+    height: 105%;
     transition: transform 1000ms;
 
 }
